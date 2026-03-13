@@ -1,215 +1,291 @@
 <!DOCTYPE html>
-<html>
-  <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Profile - CELCON Industries</title>
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
-      <link rel="stylesheet" type="text/css" href="index.css">
-  </head>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Skillguild - Master Your Skills</title>
 
-  <body>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
-<!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark sticky-top shadow-sm">
-      <div class="container">
-        <a class="navbar-brand fw-bold" href="#home">CELCON Industries</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="mainNav">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-            <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
-            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-          </ul>
+  <!-- Material Symbols -->
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+  />
+
+  <!-- Styles -->
+  <link rel="stylesheet" type="text/css" href="index.css">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="topbar">
+    <div class="container navbar">
+      <a href="#" class="brand">
+        <span><img src="./images/logo-skillguild.png"></span>
+        <span>skillguild</span>
+      </a>
+
+      <nav class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#intro">Intro</a>
+        <a href="#featured">Featured</a>
+        <a href="#categories">Categories</a>
+        <a href="#resources">Resources</a>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#" class="icon-btn" aria-label="Search">
+          <span class="material-symbols-outlined">search</span>
+        </a>
+        <a href="#" class="icon-btn" aria-label="Profile">
+          <span class="material-symbols-outlined">person</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="container hero-grid">
+      <div id="introduction">
+
+        <h1>Unleash Your<br>Potential</h1>
+
+        <p>
+          Feel the power within you as you discover the strength, talent, and potential that have always been there, waiting to be developed. Through continuous learning and skills training, you can transform your abilities into confidence, purpose, and a stronger future.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#intro" class="btn btn-primary">
+            Get Started
+          </a>
+
         </div>
       </div>
-    </nav>
 
-
-<!-- Landing -->
-    <section class="home" id="hero">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-lg-8">
-            <h1 class="display-4 fw-bold mb-3">BUSBAR TRUNKING SYSTEMS</h1>
-            <h2 class="mb-3">Extraordinary quality and superior performance</h2>
-            <p class="lead mb-4">
-            A new creation at work for smart infrastructures and green energy distribution to power the world.    Our busbar trunking systems support low-voltage electrical power distribution with aluminium and copper conductor options, serving applications from 800A to 6300A with compact sandwich design and reduced voltage drop.
-            </p>
-            <div class="d-flex flex-column flex-sm-row gap-3">
-              <a href="#features" class="btn btn-light btn-lg px-4">Contact Us</a>
-            </div>
-          </div>
-        </div>
+      <div class="hero-card">
+        <div class="badge"><a href="#featured">Featured Learning Platform</a></div>
+        <h3>
+          <span class="material-symbols-outlined">rocket_launch</span>
+          Learn at Your Own Pace
+        </h3>
+        <p>
+          Our platform supports flexible study, expert-led instruction, and
+          industry-relevant learning experiences for modern professionals.
+        </p>
       </div>
-    </section>
+    </div>
+  </section>
 
-
-<!-- Features Card -->
-    <section class="py-5 bg-soft" id="features">
-      <div class="container">
-        <div class="text-center mb-5">
-          <h2 class="section-title">Features</h2>
-          <p class="section-subtitle">All metal parts of the joint block are anti-corrosion treated (By GEOMET 321 which is applied to protect fasteners and many other metallic parts from corrosion) to prevent any unforeseen chances of increasing operating temperature cause by corrosion.</p>
-        </div>
-
-<!-- Feature 1 -->
-        <div class="row g-4">
-          <div class="col-sm-6 col-lg-4">
-            <div class="card feature-card p-4">
-              <img
-              src="./images/card-performance.png"
-              alt="Busduct product"
-              class="img-fluid rounded mb-3"
-              >
-              <h5 class="fw-bold">Performance assurance</h5>
-              <p class="text-muted mb-0">Engineered for dependable operation with quality-focused standards and support.</p>
-            </div>
-          </div>
-
-<!-- Feature 2 -->
-          <div class="col-sm-6 col-lg-4">
-            <div class="card feature-card p-4">
-              <img
-              src="./images/card-iec.png"
-              alt="Busduct product"
-              class="img-fluid rounded mb-3"
-              >
-              <h5 class="fw-bold">Certified compliance</h5>
-              <p class="text-muted mb-0">Aligned with IEC certifications and vibration test requirements for demanding environments.</p>
-            </div>
-          </div>
-
-<!-- Feature 3 -->          
-          <div class="col-sm-6 col-lg-4">
-            <div class="card feature-card p-4">
-              <img
-              src="./images/card-aluminum.png"
-              alt="Busduct product"
-              class="img-fluid rounded mb-3"
-              >
-              <h5 class="fw-bold">Lightweight aluminium casing</h5>
-              <p class="text-muted mb-0">Physically strong profile extrusion with enhanced heat dissipation and corrosion protection.</p>
-            </div>
-          </div>
-
-<!-- Feature 4 -->
-          <div class="col-sm-6 col-lg-4">
-            <div class="card feature-card p-4">
-              <img
-              src="./images/card-machine.png"
-              alt="Busduct product"
-              class="img-fluid rounded mb-3"
-              >
-              <h5 class="fw-bold">Machine insulation process</h5>
-              <p class="text-muted mb-0">Automated insulation of conductors for consistency, sealing integrity, and product quality.</p>
-            </div>
-          </div>
-
-<!-- Feature 5 -->
-          <div class="col-sm-6 col-lg-4">
-            <div class="card feature-card p-4">
-              <img
-              src="./images/card-fire.png"
-              alt="Busduct product"
-              class="img-fluid rounded mb-3"
-              >
-              <h5 class="fw-bold">Fire-resistant design</h5>
-              <p class="text-muted mb-0">Self-extinguishing insulation materials and robust phase separation design for safety.</p>
-            </div>
-          </div>
-
-<!-- Feature 6 -->
-          <div class="col-sm-6 col-lg-4">
-            <div class="card feature-card p-4">
-              <img
-              src="./images/card-controlled.png"
-              alt="Busduct product"
-              class="img-fluid rounded mb-3"
-              >
-              <h5 class="fw-bold">Quality-controlled manufacturing</h5>
-              <p class="text-muted mb-0">Automated production and digital quality control for consistent finished products.</p>
-            </div>
-          </div>
-        </div>
+  <!-- FEATURED SECTION -->
+  <section id="featured">
+    <div class="container">
+      <div class="section-heading">
+        <h2>Featured Courses</h2>
       </div>
-    </section>
 
+      <div class="grid-4" id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <article>      
+          <h3>Browse by Category</h3>
+          <p class="browse-category">Explore our featured courses, specially designed to guide learners through the fullstack development path from front-end to back-end technologies. Each course is carefully structured to build practical skills in coding, databases, servers, and modern web development tools.</p>
+        </article>
 
-<!-- Why Choose This System -->
-    <section class="py-5" id="advantages">
-      <div class="container">
-        <div class="text-center mb-5">
-          <h2 class="section-title">Why choose this system</h2>
-          <p class="section-subtitle">Our busduct system delivers safe, efficient, and reliable power distribution for commercial and industrial applications. It is designed for easy installation, long-term durability, and consistent electrical performance. Built to meet modern infrastructure demands, it provides a practical solution for organized and space-saving power management.</p>
-        </div>
-
-<!-- Advantages -->
-        <div class="row g-4">
-          <div class="col-lg-6">
-            <div class="card feature-card p-4 h-100">
-              <h4 class="fw-bold mb-3">Key Advantages</h4>
-              <ul class="list-group list-group-flush">
-                <li class="list-group-item px-0">Reduced voltage drop during full-load transmission</li>
-                <li class="list-group-item px-0">Anti-corrosion treatment on key metal parts</li>
-                <li class="list-group-item px-0">Reduced installation and investment cost</li>
-                <li class="list-group-item px-0">High mechanical resistance and environmental durability</li>
-                <li class="list-group-item px-0">After-sales engineering support and performance assurance</li>
-              </ul>
-            </div>
+        <article class="card">
+          <div class="card-image">
+            <img src="./images/courses/logo-html.png" alt="Expert-led training" class="img-fluid rounded">
           </div>
+          <h3 class="mt-3">HTML</h3>
+          <p>Master HTML fundamentals to create structured, responsive, and engaging web pages.</p>
+          <a href="#" class="link-arrow">Read More...</a>
+        </article>
 
-<!-- Get in Touch -->
-          <div class="col-lg-6">
-            <div class="cta-section p-4 p-md-5 h-100 d-flex flex-column justify-content-center">
-              <h4 class="fw-bold mb-3">Expert Engineers in Bustduct Systems</h4>
-              <p class="mb-4">
-                Our team of engineers brings years of hands-on experience in the busduct industry, delivering dependable solutions for a wide range of commercial and industrial projects. Their technical expertise covers design, planning, installation support, and system optimization to ensure safe and efficient power distribution. 
+
+        <article class="card">
+          <div class="card-image">
+            <img src="./images/courses/logo-css.png" alt="Expert-led training" class="img-fluid rounded">
+          </div>
+          <h3 class="mt-3">CSS</h3>
+          <p>Learn CSS to style, design, and beautifully format modern web pages.</p>
+          <a href="#" class="link-arrow">
+            Read More...
+          </a>
+        </article>
+
+
+        <article class="card">
+          <div class="card-image">
+            <img src="./images/courses/logo-js.png" alt="Expert-led training" class="img-fluid rounded">
+          </div>
+          <h3 class="mt-3">Javascript</h3>
+          <p>Learn JavaScript to build interactive, dynamic, and engaging web experiences confidently.</p>
+          <a href="#" class="link-arrow">Read More...</a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Categories -->
+  <section class="section-light" id="categories-section">
+    <div class="container">
+      <div class="section-heading">
+        <h2>Course Categories</h2>
+        <p>Explore our most popular learning domains</p>
+      </div>
+
+      <div class="grid-4" id="categories">
+        <article class="card">
+         <div class="card-image">
+           <img src="./images/courses/img-frontend.jpg" alt="Expert-led training" class="img-fluid rounded">
+         </div>
+          <h3 class="mt-4">Frontend</h3>
+          <p>Full-stack development, Python, and data engineering pathways.</p>
+          <a href="#" class="link-arrow">
+            Read More... 
+          </a>
+        </article>
+        <article class="card">
+         <div class="card-image">
+           <img src="./images/courses/img-backend.png" alt="Expert-led training" class="img-fluid rounded">
+         </div>
+          <h3 class="mt-4">Backend</h3>
+          <p>Full-stack development, Python, and data engineering pathways.</p>
+          <a href="#" class="link-arrow">
+            Read More...
+          </a>
+        </article>
+        <article class="card">
+         <div class="card-image">
+           <img src="./images/courses/img-fullstack.jpg" alt="Expert-led training" class="img-fluid rounded">
+         </div>
+          <h3 class="mt-4">Full Stack</h3>
+          <p>Full-stack development, Python, and data engineering pathways.</p>
+          <a href="#" class="link-arrow">
+            Read More...
+          </a>
+        </article>
+        <article class="card">
+         <div class="card-image">
+           <img src="./images/courses/img-ai.jpg" alt="Expert-led training" class="img-fluid rounded">
+         </div>
+          <h3 class="mt-4">AI Engineering</h3>
+          <p>Full-stack development, Python, and data engineering pathways.</p>
+          <a href="#" class="link-arrow">
+            Read More...
+          </a>
+        </article>     
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="section-heading">
+      <h2>About Us</h2>
+    </div>
+
+    <div class="contact-grid">
+      <div class="map" id="resources">
+        <div class="container">
+          <div class="map-box">
+            <div>
+              <div class="eyebrow" style="margin-bottom:16px;">
+                <span class="material-symbols-outlined">location_on</span>
+                <span>Find a Learning Center</span>
+              </div>
+              <h2 style="font-size:2.2rem; margin-bottom:12px;">Find a Learning Center</h2>
+              <p style="color:#cbd5e1;">
+                Locate our physical hubs for in-person workshops and networking events.
               </p>
-              <a href="#contact" class="btn btn-light align-self-start">Get in Touch</a>
+            </div>
+
+            <div class="map-art" aria-hidden="true">
+              <div class="map-pin">
+                <span class="material-symbols-outlined">map</span>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
 
 
-<!-- Contact -->
-    <section class="py-5 bg-soft" id="contact">
-      <div class="container">
-        <div class="text-center mb-5">
-          <h2 class="section-title">Contact Information</h2>
-        </div>
-
-        <div class="row justify-content-center">
-          <div class="col-lg-8">
-            <div class="card contact-card p-4 p-md-5 text-center">
-              <h4 class="fw-bold mb-3">Engr. Taras Cabalce, PEE</h4>
-              <p class="mb-2 text-muted">Senior Design Engineer</p>
-              <p class="mb-2"><strong>Tel:</strong> (66)2-686-7777</p>
-              <p class="mb-0"><strong>Email:</strong> info@celcon.com</p>
+      <div class="ABOUT-SECTION">
+        <div class="container" id="mission">  
+          <div class="mission-wrap">
+            <div class="quote-card">
+              <h2>Mission Statement</h2>
+              <blockquote>
+                “To educate and empower the youth in every neighborhood by honing their skills and helping them discover their inner potential. Through learning, guidance, and opportunity, we aim to shape confident individuals into a strong and capable future workforce.”
+              </blockquote>
             </div>
           </div>
         </div>
-      </div>
-    </section>
 
-<!-- Footer -->
-    <footer class="py-4">
-      <div class="container">
-        <div class="row g-3 align-items-center">
-          <div class="col-md-6 text-center text-md-start">
-            <div class="footer-title">Cabalce Industrial Constructors, Inc.</div>
-            <small>All rights reserved 2026.</small>
+        <div class="container" id="contact">
+          <div class="contact-list">          
+            <article class="card contact-card text-start">
+              <h2>Contact Us</h2>
+              <div class="card-icon">
+                <span class="material-symbols-outlined">mail</span>
+              </div>
+              <div class="card-content">
+                <p>Email Us</p>
+                <h3>info@skillguild.com</h3>               
+              </div>
+
+              <div id="call-us" class="d-flex align-items-start justify-content-start gap-2 text-start">
+                <div class="card-icon d-inline-block flex-shrink-0">
+                  <span class="material-symbols-outlined">call</span>
+                </div>
+
+                <div id="call-support" class="text-start">
+                  <p class="mb-1">Call Support</p>
+                  <h3 class="mb-0">(+632) 7523-1234</h3>
+                </div>
+              </div>
+            </article>
+
           </div>
         </div>
+        
       </div>
-    </footer>
+      
+      
+    </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-  </body>
+    
+  </section>
 
+
+
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-wrap">
+      <div class="footer-brand">
+        <span><img src="./images/logo-40px.png"></span>
+        <span>skillguild</span>
+      </div>
+      <div class="footer-reserved">
+        <p>© 2026 skillguild. All rights reserved.</p>
+      </div>       
+      <div class="footer-extra">    
+        <span>Powered by: jqadev</span>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+</body>
 </html>

@@ -1,5 +1,6 @@
-S81 - Mock Technical Exam (App Building)
+S82 - MTE App Building
 
 Author: Joey Aquino
 
-Company: CELCON Industries, Inc.
+Sample Output:
+https://teejaecalinao.github.io/lastname-mte-s82/
